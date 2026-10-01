@@ -1,5 +1,6 @@
 \documentclass[11pt,reqno]{amsart}
 \usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{booktabs}
 \usepackage{geometry}
@@ -106,6 +107,13 @@ Combining the three geometric invariant factors:
 C_E(E) = \mathcal{F}_{\mathrm{sing}} \cdot \mathcal{F}_{\mathrm{metric}} \cdot \mathcal{F}_{\mathrm{Ar}} = (2\pi) \cdot \left(\frac{\pi}{\omega_1^2}\right) \cdot \left(\frac{3}{2}\right) = \frac{3\pi^2}{\omega_1^2}.
 \end{equation}
 This completes the derivation. \qed
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.98\textwidth]{figure1_correspondence.png}
+\caption{\textbf{Hydrodynamic-Arakelov metric correspondence on $\mathbb{C}/\Lambda$ for curve \texttt{389.a1}} ($\tau \approx 0.2451 + 0.8174i$). (a) Stream function $G(z; z_0)$ of a single point-vortex on the flat torus with uniform background neutralizing charge. (b) Admissible Arakelov Green kernel $g_{\mathrm{Ar}}(z, \tau)$. Both potentials exhibit identical contour topology and coordinate shear governed by $\mathrm{Im}(\tau)$, differing only by the global scaling constant $C_E(E) = 3\pi^2/\omega_1^2$ and an additive boundary regularizer $\gamma(E)$.}
+\label{fig:contour_correspondence}
+\end{figure}
 
 \section{Modular Invariance under $\mathrm{SL}_2(\mathbb{Z})$}
 To ensure well-definedness across different choices of lattice basis, the regularized kernel:
